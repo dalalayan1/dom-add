@@ -5,41 +5,41 @@
      * 
      * @returns {object} - created dom element(s)
      */
-    const domELementCreator = function(elementObj, parentElement) {
+const domELementCreator = function (elementObj, parentElement) {
 
-        const { tag, attrs, children, innerText, innerHTML } = elementObj;
-        let newEle = document.createElement(tag);
+    const { tag, attrs, children, innerText, innerHTML } = elementObj;
+    let newEle = document.createElement(tag);
 
-        if(attrs) {
-            for(var key in attrs) {
-                newEle.setAttribute(key, attrs[key]);
-            }
+    if (attrs) {
+        for (var key in attrs) {
+            newEle.setAttribute(key, attrs[key]);
         }
+    }
 
-        if(innerText) {
-            newEle.innerText = innerText;
-        }
+    if (innerText) {
+        newEle.innerText = innerText;
+    }
 
-        if(innerHTML) {
-            newEle.innerHTML = innerHTML;
-        }
-        
-        if(children && children.length) {
-            children.forEach((child) => {
-                var childElement = domELementCreator(child);
-                newEle.appendChild(childElement);
-            })
-        }
+    if (innerHTML) {
+        newEle.innerHTML = innerHTML;
+    }
 
-        if ( parentElement ) {
-            parentElement.appendChild(newEle);
-        }
-        else {
-            return newEle;
-        }
+    if (children && children.length) {
+        children.forEach((child) => {
+            var childElement = domELementCreator(child);
+            newEle.appendChild(childElement);
+        })
+    }
 
-
+    if (parentElement) {
+        parentElement.appendChild(newEle);
+    }
+    else {
+        return newEle;
     }
 
 
-    module.exports = domELementCreator;
+}
+
+
+module.exports = domELementCreator;
