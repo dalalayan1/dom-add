@@ -42,4 +42,6 @@ const domELementCreator = function (elementObj, parentElement) {
 }
 
 
-module.exports = domELementCreator;
+module.exports = {
+    domELementCreator
+};

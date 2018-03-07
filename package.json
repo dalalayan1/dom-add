@@ -1,6 +1,6 @@
 {
   "name": "dom-add",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "appending markup to the DOM using recursion",
   "main": "index.js",
   "scripts": {
