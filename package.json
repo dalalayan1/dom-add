@@ -1,14 +1,14 @@
 {
-  "name": "dom-append",
-  "version": "0.0.1",
-  "description": "Appending markup to the DOM using recursion",
+  "name": "dom-add",
+  "version": "0.0.2",
+  "description": "appending markup to the DOM using recursion",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dalalayan1/dom-append.git"
+    "url": "git+https://github.com/dalalayan1/dom-add.git"
   },
   "keywords": [
     "bubbleSort",
@@ -20,8 +20,8 @@
   "author": "Ayan Dalal <dalalayan1@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dalalayan1/dom-append/issues"
+    "url": "https://github.com/dalalayan1/dom-add/issues"
   },
-  "homepage": "https://github.com/dalalayan1/dom-append#readme"
+  "homepage": "https://github.com/dalalayan1/dom-add#readme"
 }
 
