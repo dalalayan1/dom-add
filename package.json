@@ -1,6 +1,6 @@
 {
   "name": "dom-add",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "appending markup to the DOM using recursion",
   "main": "index.js",
   "scripts": {
@@ -11,11 +11,10 @@
     "url": "git+https://github.com/dalalayan1/dom-add.git"
   },
   "keywords": [
-    "bubbleSort",
-    "selectionSort",
-    "insertionSort",
-    "mergeSort",
-    "quickSort"
+    "document",
+    "DOM",
+    "appendChild",
+    "createChild"
   ],
   "author": "Ayan Dalal <dalalayan1@gmail.com>",
   "license": "ISC",
